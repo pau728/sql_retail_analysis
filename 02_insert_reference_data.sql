@@ -8,3 +8,13 @@ INSERT INTO products (product_name, category, price) VALUES
 ('Headphones', 'Electronics', 149.99),
 ('Office Chair', 'Furniture', 199.99),
 ('Desk Lamp', 'Furniture', 39.99);
+
+-- Insert sales transactions
+INSERT INTO sales (store_id, product_id, sale_date, quantity) VALUES
+(1, 1, '2025-01-05', 2),
+(1, 2, '2025-01-06', 5),
+(2, 3, '2025-01-06', 1),
+(3, 4, '2025-01-07', 3),
+(3, 1, '2025-01-08', 1);
+
+SELECT * FROM sales;
