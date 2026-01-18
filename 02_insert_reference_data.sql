@@ -17,4 +17,3 @@ INSERT INTO sales (store_id, product_id, sale_date, quantity) VALUES
 (3, 4, '2025-01-07', 3),
 (3, 1, '2025-01-08', 1);
 
-SELECT * FROM sales;
